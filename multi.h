@@ -40,7 +40,7 @@ typedef LPTHREAD_START_ROUTINE Runnable;
 typedef DWORD ThreadValue;
 typedef DWORD ProcessValue;
 #define SITH_STRFMT_PROCVALUE "lu"
-#define SITH_THREAD_CALLCONV //WINAPI
+#define SITH_THREAD_CALLCONV WINAPI
 
 typedef DWORD ProcessID;
 #define SITH_STRFMT_PID "lu"
